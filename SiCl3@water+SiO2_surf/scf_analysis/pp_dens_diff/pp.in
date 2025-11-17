@@ -1,0 +1,14 @@
+&INPUTPP
+/
+&PLOT
+  nfile = 3
+  filepp(1) = 'rho_tot_tot'
+  filepp(2) = 'rho_tot_sub'
+  filepp(3) = 'rho_tot_mol'
+  weight(1) = 1
+  weight(2) = -1
+  weight(3) = -1
+  iflag          = 3           ! 3D grid
+  output_format  = 5           ! 6: XSF, 5: Gaussian cube, 3: gnuplot
+  fileout        = 'rho_tot.xsf'
+/

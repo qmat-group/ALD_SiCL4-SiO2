@@ -1,0 +1,51 @@
+&CONTROL
+  calculation = 'scf'
+  etot_conv_thr =   7.7000000000d-04
+  forc_conv_thr =   1.0000000000d-04
+  dt = 1.0
+  nstep = 100 
+  outdir = './out/'
+  prefix = 'aiida'
+  pseudo_dir = './pseudo/'
+  tprnfor = .true.
+  tstress = .true.
+  verbosity = 'high'
+  restart_mode = 'from_scratch'
+/
+&SYSTEM
+  degauss =   1.4699723600d-02
+  ecutrho =   4.8000000000d+02
+  ecutwfc =   6.0000000000d+01
+  ibrav = 0
+  nat = 5
+  nosym = .true.
+  ntyp = 4
+  occupations = 'smearing'
+  smearing = 'cold'
+  vdw_corr='grimme-d2'
+/
+&ELECTRONS
+  conv_thr =   1.5400000000d-08
+  electron_maxstep = 80
+  mixing_beta =   4.0000000000d-01
+  scf_must_converge = .False.
+/
+&IONS
+ ion_dynamics = 'bfgs'
+/
+ATOMIC_SPECIES
+H      1.00794 H.pbesol-rrkjus_psl.1.0.0.UPF
+O      15.9994 O.pbesol-n-kjpaw_psl.0.1.UPF
+Si     28.0855 Si.pbesol-n-rrkjus_psl.1.0.0.UPF
+Cl     35.453 cl_pbesol_v1.4.uspp.F.UPF
+ATOMIC_POSITIONS (angstrom)
+Si            4.5311699156        4.3210366348       27.3533440540
+Cl            5.8608626045        3.8983926354       28.8233684647
+Cl            4.1648288166        2.6592055291       26.2399310590
+Cl            2.7932100689        4.9732257950       28.1645279948
+Cl            5.3077456767        5.7486797674       26.1363123001
+K_POINTS gamma
+CELL_PARAMETERS angstrom
+   10.055564000     0.0000000000     0.0000000000
+   0.0000000000     8.7083730000     0.0000000000
+   0.0000000000     0.0000000000    41.0756720000

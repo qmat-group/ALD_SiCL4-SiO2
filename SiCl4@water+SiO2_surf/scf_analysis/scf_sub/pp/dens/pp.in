@@ -1,0 +1,14 @@
+&INPUTPP
+  prefix   = 'aiida',
+  outdir   = '../../out',
+  filplot  = 'rho_tot',
+  plot_num = 0      ! total electron density 
+/
+&PLOT
+  nfile = 1
+  filepp(1) = 'rho_tot'
+  weight(1) = 1
+  iflag          = 3           ! 3D grid
+  output_format  = 5           ! 6: XSF, 5: Gaussian cube, 3: gnuplot
+  fileout        = 'rho_tot.xsf'
+/

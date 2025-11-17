@@ -1,0 +1,33 @@
+
+     Program POST-PROC v.6.8 starts on 13Aug2025 at  8:47:23 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     1 processors
+
+     MPI processes distributed on     1 nodes
+     377108 MiB available memory on the printing compute node when the environment starts
+ 
+     Reading header from file  rho_tot_tot
+     Reading data from file  rho_tot_tot
+     Reading data from file  rho_tot_sub
+     Reading data from file  rho_tot_mol
+
+     Writing data to be plotted to file rho_tot.xsf
+     Plot Type: 3D                     Output format: XCrySDen     
+ 
+     POST-PROC    :      6.85s CPU      7.95s WALL
+
+ 
+   This run was terminated on:   8:47:31  13Aug2025            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

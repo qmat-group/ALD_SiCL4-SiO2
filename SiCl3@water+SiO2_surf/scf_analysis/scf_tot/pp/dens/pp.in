@@ -1,0 +1,8 @@
+&INPUTPP
+  prefix   = 'aiida',
+  outdir   = '../../out',
+  filplot  = 'rho_tot',
+  plot_num = 0      ! total electron density 
+/
+&PLOT
+/
